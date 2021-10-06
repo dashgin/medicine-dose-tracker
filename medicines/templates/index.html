@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if form %}
+    <form method="post" enctype="multipart/form-data" class="form-control mx-auto my-5">
+        {% csrf_token %}
+        {{form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+{% endif %}
+
+    <form method="post" class="form-control ">
+    {% csrf_token %}
+    <p>Do you want delete?</p>
+    <a href="/">No</a>
+    <button type="submit">Yes</button>
+    </form>
+
+{% if medicine %}
+    {{ medicine }}
+{% endif %}
+
+{% if medicines %}
+    {{ medicines }}
+{% endif %}
+
+</body>
+</html>

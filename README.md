@@ -4,7 +4,7 @@ This is an open source project from [DevProjects](http://www.codementor.io/proje
 Find the project requirements here: [Medicine dose tracker web app ](https://www.codementor.io/projects/web/medicine-dose-tracker-b6evlas194)
 
 ## Tech/framework used
-Built with ___
+Built with Django 3 and django-rest-framework
 
 ## Screenshots and demo
 Screenshots of your app and/or a link to your live demo
