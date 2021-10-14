@@ -1,0 +1,14 @@
+{% extends 'partials/_base.html' %}
+{% block title %}
+    Edit
+{% endblock %}
+{% block content %}
+    {% if edited %}
+        Medicine edited:<a href="{{ object.get_absolute_url }}">{{ object.name }}</a>
+    {% endif %}
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Edit</button>
+    </form>
+{% endblock %}

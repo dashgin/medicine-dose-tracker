@@ -1,0 +1,10 @@
+{% extends 'partials/_base.html' %}
+{% block title %}
+    {{ user.full_name }}
+{% endblock %}
+{% block content %}
+    {% for medicine in medicines %}
+        <li><a href="{% url 'medicines:detail' medicine.pk %}">{{ medicine.name }}</a></li>
+    {% endfor %}
+
+{% endblock %}
