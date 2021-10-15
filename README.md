@@ -26,6 +26,14 @@ python manage.py migrate && python manage.py createsuperuser <br>
 python manage.py runserver
 </code></pre>
 
+## For future
+<ul>
+<li>Make cron job or service to send email or text reminders to the user to take the medicine at the right time.</li>
+<li>Make api for project</li>
+<li>Make push notifications for remind to the user to take the medicine at the right time.</li>
+<li>Re make frontend using react or flutter</li>
+<li>Make Mobile application using flutter</li>
+</ul>
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
