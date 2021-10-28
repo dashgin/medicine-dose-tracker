@@ -35,5 +35,5 @@ python manage.py runserver
 <li>Make Mobile application using flutter</li>
 </ul>
 
-##License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
