@@ -34,8 +34,6 @@ python manage.py runserver
 <li>Re make frontend using react or flutter</li>
 <li>Make Mobile application using flutter</li>
 </ul>
-## License
 
+##License
 [MIT](https://choosealicense.com/licenses/mit/)
-Most open source projects use the MIT license. Feel free to choose whichever license you prefer.
-
